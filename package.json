@@ -1,0 +1,23 @@
+{
+  "name": "shopping_basket",
+  "version": "1.0.0",
+  "description": "Shopping Basket Lab",
+  "main": "basket.js",
+  "scripts": {
+    "test": "mocha specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancescoPalma/Homework_Week6_Day2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancescoPalma/Homework_Week6_Day2/issues"
+  },
+  "homepage": "https://github.com/FrancescoPalma/Homework_Week6_Day2#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
