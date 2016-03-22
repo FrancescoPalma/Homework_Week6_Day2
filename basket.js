@@ -1,27 +1,27 @@
-var basket = {
-
-  items = {
-    salmon: 4,
-    pizza: 6,
-    bread: 2,
-    milk: 1,
-    eggs: 2,
-    beer: 2
+var items = {
+  pizza: {
+    name: 'Meaty',
+    price: 10
   },
-  total: function() {
-
+  milk: {
+    name: 'Scottish whole milk',
+    price: 1
   },
-  add: function() {
-
-  },
-  remove: function() {
-
-  },
-  discount: function() {
-
-  },
-  card: function() {
-
+  pie: {
+    name: 'Big Black Forest',
+    price: 25
   }
-  
 };
+
+var basket = {
+  total: 0,
+  cart: [],
+  add: function(item) {
+    this.cart.push(items[item]); 
+  },
+  remove: function(item) {
+    this.cart.splice(items[item]);
+  },
+};
+
+module.exports = basket;
